@@ -1,0 +1,22 @@
+{
+  "name": "my-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon --harmony server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "chalk": "^4.0.0",
+    "config-lite": "^3.0.0",
+    "cross-env": "^7.0.2",
+    "express": "^5.0.0-alpha.8",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7"
+  }
+}
